@@ -1,66 +1,22 @@
-/* index.html */
+/* needed for the information in the body for all 3 pages */
+index.html
 body {
     background: lightgray;
-    color: #777777;
+    color: #007bff
     font-family: Arial, Helvetica, sans-serif;
     overflow: auto;
 }
 
-header {
-    background: #ffffff;
-    width: 100%;
-    overflow: auto;
-    margin: 0;
-    padding: 0;
-    box-shadow: 0px 2px #cccccc;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    display: flex;
-}
-
-.in-header {
-    width: 960px;
-    overflow: auto;
-    margin: 0 auto;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-h1 {
-    background: #4aaaa5;
-    color: white;
-    float: left;
-    text-align: center;
-    padding: 15px;
-    margin: auto 0;
-}
-
+/* This is the header titles, i.e. About, Portfolio and Contact */
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
     color: #4aaaa5;
     margin: 10px 0px 30px 0px;
-    
 }
 
 
-nav {
-    order: 1;
-    padding: 20px 0px 20px 0px;
-    text-align: right;
-
-}
-
-/* .nav-link {
-    padding-right: 5px;
-    float: right;
-} */
-.navLink {
-    padding: 0px 15px 0px 15px;
-    
-}
-
+/* Container for About Me section */
 #container {
     height: 400px;
     max-width: 100%;
@@ -69,7 +25,7 @@ nav {
     overflow: auto;
     margin: 0 auto;
 }
-
+/* Container for pictures of TMNT in Portfolio*/
 #portfolioContainer {
     height: 700px;
     max-width: 100%;
@@ -78,11 +34,11 @@ nav {
     overflow: auto;
     margin: 0 auto;
 }
-
+/* Section for Container for About Me section */
 .about {
     padding: 20px;
 }
-
+/* For Eiffel tower picture in the About Me section */
 #bio-image {
     float: left;
     padding: 15px;
@@ -96,28 +52,15 @@ footer {
     text-align: center;
     z-index: 2;
     border-top: 3px solid #4aaaa5;
-    background-color: #666666;
+    background-color: #007bff;
+    color: #FFFFFF;
     padding: 7px;
     position: fixed;
     clear: both;
     bottom: 0px;
-    /* right: 1px; */
-}
-/* index.html */
-
-
-/* input[type="text"], select, textarea {
-    width: 100%;
-    padding: 10px;
-    
-    /* border: 2px black; */
-    /* border-radius: 2px;
-    box-sizing: border-box;
-    margin-top: 5px;
-    margin-bottom: 10px; */
-
-/* } */ 
+   
 /* contact.html/
+/* Contact Page Input tags */
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
@@ -146,6 +89,7 @@ input[type=text], select, textarea {
   }
   
   /* Add a background color and some padding around the form */
+  /* Container for Contact form */
   .containerclass {
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -159,6 +103,7 @@ input[type=text], select, textarea {
 /* contact.html */
 
 /* Portfolio.html */
+/* box for Pictures in Portfolio page */
 .box {
     background-color: #eee; 
     width: 275px;
@@ -166,31 +111,33 @@ input[type=text], select, textarea {
     margin: 10px 10px 10px 10px; 
     position: relative;
 }
+/* Box one picture */
 .one {
     background-image: url("../images/Raphael.png"); 
 }
-
+/* Box two picture */
 .two {
     background-image: url("../images/Donatello.png"); 
 }
-
+/* Box three picture */
 .three {
     background-image: url("../images/Leonardo.png"); 
 }
-
+/* Box four picture */
 .four {
     background-image: url("../images/Michaelangelo.png"); 
 }
-
+/* Box five picture */
 .five {
     background-image: url("../images/TMNT!.png"); 
 }
-
+/* Container for boxes of Pictures on Portfolio page */
 #portfolio {
     display: flex;
     flex-wrap: wrap;
 }
 
+/* Text for boxes of Pictures on Portfolio Page (i.e. the names of the TMNT) */
 .boxText {
     font-family: Georgia, 'Times New Roman', Times, serif; 
     color: #fff; 
